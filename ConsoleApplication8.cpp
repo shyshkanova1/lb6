@@ -2,10 +2,9 @@
 #include <iomanip> 
 #include "windows.h"
 
-#define N 10
+#define N 44
 
 using namespace std;
-
 
 int main()
 {
