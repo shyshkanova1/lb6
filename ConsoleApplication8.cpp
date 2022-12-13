@@ -2,7 +2,7 @@
 #include <iomanip> 
 #include "windows.h"
 
-#define N 44
+#define N 8
 
 using namespace std;
 
@@ -57,7 +57,7 @@ int main()
 	cout << endl;
 
 	if (n != 0)
-		cout << "Result: " << pow(geom, 1.0 / N) << endl;
+		cout << "Result: " << pow(geom, 1.0 / n) << endl;
 	else
 		cout << "Cannot calculate for current data" << endl;
     
